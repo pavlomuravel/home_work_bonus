@@ -1,0 +1,74 @@
+body {
+    background-color: silver;
+    font-family:Bradley Hand, cursive;
+    display: grid;
+    place-items: center;
+   
+}
+
+.content__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "feater1 feater2 feater3"
+    "sing_ap sing_ap sing_ap"
+    "content_botom content_botom content_botom";
+    height: 100vh;
+    max-width: 1200px;
+    min-width: 1200px;
+
+}
+
+.header {
+    grid-area: header;
+}
+
+.feater1 {
+    grid-area: feater1;
+}
+.feater2 {
+    grid-area: feater2;
+}
+.feater3 {
+    grid-area: feater3;
+}
+
+.sing_ap {
+    grid-area: sing_ap;
+}
+.content_botom {
+    grid-area: content_botom;
+}
+
+.colom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.coloraqua {
+    background-color: aqua;
+}
+
+.colorburlywood {
+    background-color: burlywood;
+}
+
+.colorcornflowerblue {
+    background-color: cornflowerblue;
+}
+
+.colorcoral {
+    background-color: lightcoral;
+}
+
+.colorcadetblue {
+    background-color: cadetblue;
+}
+
+.colordarkgray {
+    background-color: darkgray;
+}
